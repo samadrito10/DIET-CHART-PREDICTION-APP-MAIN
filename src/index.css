@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full p-3 rounded-xl bg-white/20 placeholder-gray-300 outline-none focus:ring-2 focus:ring-blue-500;
+}
+.diet-card {
+  background: rgba(255,255,255,0.08);
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.diet-card:hover {
+  transform: scale(1.05);
+  border-color: #60a5fa;
+}
